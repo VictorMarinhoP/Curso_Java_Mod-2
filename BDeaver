@@ -1,0 +1,8 @@
+create table cliente (
+codigo serial primary key,
+nome varchar(255),
+cpf varchar(11)
+);
+
+insert into cliente (nome, cpf) 
+values ('victor', '07467');
